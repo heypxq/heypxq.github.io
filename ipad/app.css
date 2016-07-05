@@ -1,0 +1,247 @@
+*{
+		margin:0px;
+		padding: 0px;
+	}
+	#header{
+		height: 720px;
+		
+		background-color: #fffffa;
+		
+	}
+	#header .h-container{
+		width: 1100px;
+		height: 720px;
+		margin:0 auto;
+		
+		
+	}
+	#header .h-container .top{
+		height: 110px; 
+	}
+	#header .h-container .top .logo{
+
+		margin-left: 80px;
+		
+	}
+	#header .h-container .top .list{
+		
+		float: right;		
+	    list-style: none;
+	    margin-right: 410px;
+	    margin-top: 30px;
+
+	}
+	#header .h-container .top .list li{
+		float :left;
+		padding:15px;
+
+		
+
+	} 
+	#header .h-container .top .list li .ho{
+		border-bottom: 4px solid #323232;
+	}
+	#header .h-container .top .list li a{
+		text-decoration: none;
+		font-size: 18px;
+		font-family: tahoma;
+		color: #323232;
+	}
+	
+
+	#header .h-container .banner .app{
+		width: 620px;
+		float: left;
+	}
+    @font-face{
+        font-family: chunk;
+        src:url(chunkfive.otf);
+    }
+	#header .h-container .banner .app h1{
+		margin-left: 80px;
+		margin-top: 35px;
+		font-family: chunk;
+		font-size: 48px;
+	}
+	#header .h-container .banner .app p{
+		margin-left: 80px;
+		margin-right: 40px;
+		margin-top: 35px;
+		font-size: 18px;
+		font-family:times 	;
+	}
+	#header .h-container .banner{
+		position: relative;
+	}
+	#header .h-container .banner .app .left{
+		position: absolute;
+	
+		top: 180px;
+	}
+	#header .h-container .banner .app .word{
+		margin-left: 80px;
+		margin-top: 110px;
+		padding-right: 10px;
+	}
+    #header .h-container .banner .sj{
+    	float: right;
+    }
+    #header .h-container .banner .sj .right{
+    	position: absolute;
+    	top: 180px;
+    	right: 0px;
+    }
+    #header .h-container .banner .sj .pb{
+    	margin-right: 120px;
+    }
+    #header .h-container .banner .dian{
+    	height: 120px;
+    	margin-left: 490px;
+    	line-height: 120px;
+    	
+    }
+    #header .h-container .banner .dian li{
+    	float: left;
+    	list-style: none;
+
+
+
+    }
+    #container{
+    	height: 390px;
+    	background-image: url(images/8.png);
+    }
+    #container .c-container{
+    	width: 1100px;
+    	height: 390px;
+    	
+    	margin:0 auto;
+    }
+    #container .c-container .our{
+    	float: left;
+    	width: 650px;
+    	height: 390px;
+    }
+    #container .c-container .our h2{
+    	margin-left: 80px;
+    	margin-right: 10px;
+    	font-family: tahoma;
+    	font-size: 24px;
+    	color: #ececec;
+    	padding-top: 43px;
+
+    } #container .c-container .our p{
+    	margin-left: 80px;
+    	margin-right: 10px;
+    	font-size: 16px;
+    	font-family: tahoma;
+    	color: #c7c7c7;
+
+
+    }
+    #container .c-container .our .p1{
+    	padding-top: 40px;
+    	padding-bottom: 40px;
+    }
+    #container .c-container .from{
+    	float: right;
+    	width: 330px;
+
+
+    }
+    #container .c-container .from h2{
+    	font-family: tahoma;
+    	font-size: 24px;
+    	color: #ececec;
+    	padding-bottom: 40px;
+    	padding-top: 40px;
+    	margin-left: 10px;
+    }
+    #container .c-container .from .aug{
+    	width: 60px;
+    	height: 200px;
+    	float: left;
+    	margin-left: 10px;
+    }
+     #container .c-container .from .aug li{
+     	list-style: none;
+     	padding-bottom: 8px;
+     }
+
+    
+
+
+    #container .c-container .from .wz{
+    	width: 240px;
+    	height: 200px;
+    	float: right;
+
+    	
+
+    	
+    	
+
+
+    }
+     #container .c-container .from .wz li{
+     	list-style: none;
+     	padding-bottom: 35px;
+     	font-size: 16px;
+    	font-family: tahoma;
+     	     }
+     #container .c-container .from .wz .by{
+     	color: #c7c7c7;
+     	font-size: 16px;
+    	font-family: tahoma;
+     }
+     #container .c-container .from .wz .why{
+     	color:#666666;
+     	
+     }
+
+     #footer{
+     	height: 90px;
+     	background-image: url(images/6.jpg);
+     }
+     #footer .f-container{
+     	width: 1100px;
+     	height: 90px;
+     	margin:0 auto;
+     }
+     #footer .f-container .bq{
+     	float: left;
+     	height: 90px;
+     	line-height: 90px;
+     	font-size: 16px;
+    	font-family: tahoma;
+    	color: #c7c7c7;
+    	margin-left: 80px;
+     }
+   
+     #footer .f-container .lj{
+     	float: right;
+
+     }
+
+     #footer .f-container .lj .lb li{
+     	list-style: none;
+     	float: left;
+     	height: 90px;
+     	line-height: 90px;
+     	font-size: 16px;
+    	font-family: tahoma;
+    	
+    	padding-right: 15px;
+
+
+     }
+     #footer .f-container .lj .lb li a{
+     	color: #c7c7c7;
+     	text-decoration: none;
+
+     }
+      #footer .f-container .lj .lb{
+      	margin-right: 20px;
+      }
+    	
+
